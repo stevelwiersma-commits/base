@@ -20,14 +20,10 @@ export const projects = [
     links: [{ label: 'Source code', url: 'https://github.com/your-username/login-logger' }],
   },
   {
-    title: 'Project name',
-    description:
-      'One or two sentences on what it does and who it is for. Mention a result, such as the number of users or time saved, if you have one.',
-    stack: ['React', 'JavaScript'],
-    links: [
-      { label: 'Live site', url: 'https://example.com' },
-      { label: 'Source code', url: 'https://github.com/your-username/project-name' },
-    ],
+    title: 'Cornerstone Christian Bookstore website',
+    description: 'Redesign of a local bookstore\'s site, with live open/closed hours and a mobile-friendly layout. Describe what you changed and why.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    links: [{ label: 'Live site', url: `${import.meta.env.BASE_URL}cornerstone/index.html` }],
   },
 ]
 
